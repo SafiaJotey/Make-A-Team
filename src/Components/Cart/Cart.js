@@ -19,6 +19,7 @@ const Cart = (props) => {
                    </ul>
                
                <button>Buy Now</button>
+               
         </div>
     );
 };

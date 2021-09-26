@@ -1,4 +1,4 @@
-#My Getting Started with Create React App
+
 
 LiveSite [make-a-team]( https://make-a-team.netlify.app/).
 

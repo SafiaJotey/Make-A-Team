@@ -1,0 +1,26 @@
+.card{
+    background-color: #78FFF1;
+    text-align: center;
+    color:#444645;
+    
+    border-bottom: 7px solid  #FF6495;
+    border-radius: 20px;
+    margin: 5px;
+}
+.card-image{
+    width:60% ;
+    border: 2px solid silver;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.card-image img{
+  width: 80%;
+}
+.card button{
+    background-color: #FF6495;
+    padding: 10px 30px;
+    border: 2px solid #78FFF1;
+    border-radius: 5px;
+    color:#78FFF1;
+    margin: 10px;
+}

@@ -1,0 +1,30 @@
+.order{
+    background-color: #78FFF1;
+    text-align: center;
+    color:#444645;
+    
+    border-bottom: 7px solid  #FF6495;
+    border-radius: 20px;
+    margin: 5px;
+}
+.order button{
+    background-color: #FF6495;
+    padding: 10px 30px;
+    border: 2px solid #78FFF1;
+    border-radius: 5px;
+    color:#78FFF1;
+    margin: 10px;
+}
+
+.order h2{
+    font-size: 32px;
+
+}
+.order h4{
+    font-size: 22px;
+
+}
+.order p{
+    font-size: 20px;
+    
+}

@@ -1,19 +1,42 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
 import './Shop.css'
+import Character from './../Characters/Character';
+import Cart from '../Cart/Cart';
 
 const Shop = () => {
+    const [characters, setCharacters]=useState([]);
+    const[cart,setCart]=useState([])
+    useEffect(()=>{
+        fetch('./data.JSON')
+        .then(res=>res.json())
+        .then(data=>setCharacters(data))
+    },[])
+    const handleAddToCart=(character)=>{
+       const newCart=[...cart,character];
+       setCart(newCart);
+
+    }
     return (
-        <div>
+        <div className="shop-container">
            <div className="product-container">
 
-              <h4>hkjlk;</h4>
+              {
+                    characters.map(character=><Character 
+                        key={character.Character_name}
+                        character={character}
+                        handleAddToCart={handleAddToCart}
+                    ></Character>)
+              }
 
            </div>
            <div className="cart-container">
-
-               <h4>Character Added : 0</h4>
-               <p>Total Cost : $0</p>
-               <button>Buy Now</button>
+              <Cart 
+              cart={cart}
+              
+              ></Cart>
+              
+             
            </div>
         </div>
     );

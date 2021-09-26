@@ -2,7 +2,7 @@
 
 LiveSite [make-a-team]( https://make-a-team.netlify.app/).
 
-## * In this website, you can select your favorite cartoon Character
-## * Make a team with those Character
-## * Let's go to childhood days 
+## * In this website, you can select your favorite cartoon Characters
+## * Make a team with those Characters
+## * Let's go to our childhood days 
 
